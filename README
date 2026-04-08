@@ -1,5 +1,6 @@
-
-conda create --name sprint3_env python=3.12
+conda create -n sprint3_final python=3.11 pytorch=2.5.1 cpuonly -c pytorch -y
 conda init fish
-conda activate sprint3_env
+conda install torchvision==0.20.1
+conda activate sprint3_final
 pip install -r requirements.txt
+pip list
