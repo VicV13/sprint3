@@ -1,0 +1,5 @@
+
+conda create --name sprint3_env python=3.12
+conda init fish
+conda activate sprint3_env
+pip install -r requirements.txt
